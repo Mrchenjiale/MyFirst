@@ -1,0 +1,46 @@
+var checkAll = $("#checkAll");
+var a5=$("#a5");
+var listinput=$('.list input[type="checkbox"]');
+var allinput=$('input[type="checkbox"]');
+listinput.change(function(){
+	//都选中时，全选按钮变色，否则不变色
+	if($('.list input:checked').length!==listinput.length){
+		a5.prop('checked',false);
+	}else{
+		a5.prop('checked',true);
+	}
+	//价格和数量相加
+	var price=$('.list li').has('input:checked').find(".pricenum");
+	var num=$('.list li').has('input:checked').find(".num");
+	var pricesum=0;
+	var numsum=0;
+	$.each(price,function(i,n){
+		pricesum+=Number($(n).text())*Number($(n).siblings().find('.num').text());
+	});
+	$.each(num,function(i,n){
+		numsum+=Number($(n).text());
+	});
+	$('#pricesum').html(pricesum);
+	$('#numsum').html(numsum);
+})
+//全选按钮
+a5.change(function(){
+	if($(this).prop('checked')){
+		if($('.list input:checked').length!==listinput.length){
+			$('.list li input:not(:checked)').prop('checked',true);
+		}
+	}else{
+		if($('.list input:checked').length==listinput.length){
+			listinput.prop('checked',false);
+		}
+	}
+	listinput.trigger('change')
+ })
+checkAll.tap(function(){
+    $('#a6').trigger('tap')
+});
+//删除
+var remove = $("#remove");
+remove.tap(function(){
+    $('.list li').has('input:checked').remove();
+});

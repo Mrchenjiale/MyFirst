@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="utf-8">
+    <title>guide</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+    <link rel="stylesheet" href="css/swiper.min.css">
+    <link rel="stylesheet" href="css/guide.css">
+    <link rel="stylesheet" href="css/mobile-reset.css">
+    <script src="js/base.js"></script>
+    <script src="js/Zepto.js"></script>
+    <script src="js/touch.js"></script>
+</head>
+<body>
+<div class="start-container" id="start">
+        <p class="img-box"><img src="images/homepage-start.png" alt=""/></p>
+        <p class="note">京东网安备110105000809号 京ICP证060405 乙测资字1101804</p>
+</div>
+    <!-- Swiper -->
+    <div class="swiper-container">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <div class="guide-1">
+                    <div class="header">
+                        <p class="p1">家居首页</p>
+                        <p class="p2">阐释经典饰家理念，传递时尚潮流真谛！</p>
+                        <div class="guide-1-img"><img src="images/guide-bg-phone1.png" alt=""></div>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="guide-2">
+                    <div class="header">
+                        <p class="p1">家居分类</p>
+                        <p class="p2"> 美的生活，美的享受，一切尽在家居生活馆！</p>
+                        <div class="guide-1-img"><img src="images/guide-bg-phone2.png" alt=""></div>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="guide-3">
+                    <div class="header">
+                        <p class="p1">家居社区</p>
+                        <p class="p2"> 阅居，为你编织美好生活！</p>
+                        <div class="guide-1-img"><img src="images/guide-bg-phone3.png" alt=""></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="swiper-pagination"></div>
+    </div>
+    <script src="js/swiper.js"></script>
+    <script>
+    var xValue=0;
+    var swiperSlide = $(".swiper-slide");
+    var num=swiperSlide.children().length;
+    var swiper = new Swiper('.swiper-container', {
+        pagination: '.swiper-pagination',
+        paginationClickable: '.swiper-pagination',
+        onInit:function(){
+            swiperSlide.eq(0).addClass("ani");
+        },
+        //切换完成之后触发
+        onSlideChangeStart: function(){
+            swiperSlide.eq(swiper.activeIndex).addClass("ani").siblings().removeClass("ani");
+        },
+        onSlideChangeEnd: function(){
+            if(swiper.activeIndex+1==num){
+                xValue=swiper.getWrapperTranslate("x");
+            }
+        },
+        onTouchEnd:function(){
+            if(swiper.activeIndex+1==num&&swiper.getWrapperTranslate("x")<xValue){
+                window.location="homepage.html";
+            }
+        }
+    });
+    var startNode=$("#start");
+    startNode.on("tap click",function(){
+        startNode.css({"margin-top":"-"+$(this).height()+"px"});
+    });
+    </script>
+</body>
+</html>

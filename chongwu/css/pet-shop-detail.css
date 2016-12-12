@@ -1,0 +1,116 @@
+.pet-shop-detail-address, .pet-shop-detail-address span, .pet-shop-detail-key {
+  float: left; }
+
+.pet-shop-detail-page, .pet-shop-detail-address, .pet-shop-detail-onbussiness {
+  background-color: #fff; }
+
+.swiper-container, .pet-shop-detail-wrapper, .pet-shop-detail-page, .pet-shop-detail-icon-container {
+  font-size: 0; }
+
+.pet-shop-detail-wrapper {
+  min-height: 13.35rem;
+  background-color: #f7f7f7;
+  position: relative;
+  top: 0;
+  left: 0; }
+
+.pet-shop-detail-page {
+  height: 0.6rem;
+  line-height: 0.8rem;
+  width: 7.5rem; }
+
+.swiper-pagination-bullet {
+  width: 0.2rem;
+  height: 0.2rem;
+  background: #999;
+  margin-left: 0.2rem; }
+
+.wiper-pagination-bullet-active {
+  opacity: 1;
+  background: #333; }
+
+.pet-shop-detail-icon-container i {
+  font-size: 0.5rem;
+  position: absolute;
+  z-index: 2;
+  color: #fff; }
+  .pet-shop-detail-icon-container i:nth-of-type(1) {
+    top: 0.2rem;
+    left: 0.25rem; }
+  .pet-shop-detail-icon-container i:nth-of-type(2) {
+    top: 0.2rem;
+    right: 1.25rem; }
+  .pet-shop-detail-icon-container i:nth-of-type(3) {
+    top: 0.2rem;
+    right: 0.25rem; }
+  .pet-shop-detail-icon-container i:nth-of-type(4) {
+    bottom: 0.3rem;
+    right: 0.25rem;
+    font-size: 0.22rem;
+    font-style: normal;
+    height: 0.75rem;
+    width: 0.75rem;
+    line-height: 0.75rem;
+    border-radius: 50%;
+    background-color: rgba(0, 0, 0, 0.7); }
+    .pet-shop-detail-icon-container i:nth-of-type(4) span {
+      font-size: 0.32rem;
+      margin-left: 0.07rem; }
+
+.pet-shop-detail-address {
+  width: 100%;
+  margin-top: 0.85rem;
+  padding: 0.25rem;
+  box-sizing: border-box; }
+  .pet-shop-detail-address i {
+    font-size: 0.36rem;
+    position: absolute;
+    top: 50%;
+    margin-top: -0.2rem; }
+  .pet-shop-detail-address i:nth-of-type(1) {
+    color: #2b8fff;
+    left: 0.25rem; }
+  .pet-shop-detail-address span {
+    font-size: 0.28rem;
+    color: #666;
+    width: 68%;
+    margin-left: 0.55rem; }
+  .pet-shop-detail-address i:nth-of-type(2) {
+    color: #0dcc23;
+    right: 0.35rem; }
+
+.pet-shop-detail-onbussiness {
+  padding: 0.25rem;
+  float: left;
+  width: 100%;
+  box-sizing: border-box;
+  margin-top: 0.25rem; }
+  .pet-shop-detail-onbussiness > span {
+    font-size: 0.3rem;
+    color: #333; }
+  .pet-shop-detail-onbussiness p {
+    margin-top: 0.23rem; }
+    .pet-shop-detail-onbussiness p span {
+      font-size: 0.26rem;
+      color: #999; }
+      .pet-shop-detail-onbussiness p span:nth-of-type(1) {
+        margin-right: 0.35rem; }
+
+.pet-shop-detail-intro p {
+  font-size: 0.26rem;
+  color: #999; }
+
+.pet-shop-detail-key {
+  margin-top: 0.35rem;
+  margin-left: 1.62rem; }
+  .pet-shop-detail-key i {
+    background-color: #fe2d63;
+    color: #fff;
+    height: 0.6rem;
+    line-height: 0.6rem;
+    width: 4.25rem;
+    text-align: center;
+    border-radius: 0.22rem;
+    font-size: 0.34rem;
+    font-style: normal;
+    display: block; }

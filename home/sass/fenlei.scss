@@ -1,0 +1,197 @@
+@charset "UTF-8";
+$wrap:7.5rem;
+$grey:#a0a0a0;
+$green:#0eb852;
+$nav:#efeeee;
+$block:#000;
+$font-size:0.3rem;
+%flex{
+  display: flex;
+  justify-content: space-between;
+  flex-flow: wrap;
+}
+%bt25{
+  border-top: 0.25rem solid $nav;};
+%bb25{
+  border-bottom: 0.25rem solid $nav;};
+@mixin wh($width,$height){
+  width:$width;
+  height:$height;
+  line-height:$height;
+}
+@mixin bor-radius($radius : 0.1rem){
+  border-radius:$radius;
+}
+@mixin bor-left($color :#0eb852){
+  border-left:0.1rem solid $color;
+}
+@mixin _seach{
+  margin: 0.1rem;
+  border:1px solid $grey;
+  @include wh($wrap - 0.2rem,0.5rem)
+
+}
+#fenlei-wrap {
+  width:$wrap;
+  font-size: $font-size;
+  margin: 0 auto;
+  text-align: center;
+  a{
+    text-decoration: none;
+  }
+  #seach {
+    @include _seach;
+    @include bor-radius;
+    position: relative;
+    i { font-size:0.4rem!important;
+      position: absolute;
+    left:0;
+      top:-2px;}
+input{
+  width:inherit;
+  border:0;
+  box-sizing: border-box;
+  padding-left:0.4rem;
+  color:$block ;
+  outline:0px;
+  @include bor-radius;
+}
+  }
+  #nav {
+   @extend %bt25;
+   @extend %bb25;
+    overflow: hidden;
+    ul {
+      @extend %flex;
+      li {
+        margin:0.15rem;
+        position: relative;
+        a{
+          display: inline-block;
+          img{
+            @include wh(1.39rem,1.34rem)
+          }
+        }
+
+      }
+    }
+  }
+  #list{
+p{
+
+  @include wh(100%,0.75rem);
+  border-bottom:1px solid $grey;
+}
+    #content{
+      width:$wrap;
+      @extend %flex;
+      #left{
+        width: 1.6rem;
+        a{
+          display: inline-block;
+          @include wh(1.6rem,1.6rem);
+          box-sizing: border-box;
+          @include bor-left( transparent);
+          background: #f5f5f5;
+          color:#000;
+
+        }
+        .active{
+          background: #fff;
+          @include bor-left;
+        }
+
+      }
+      #right{
+        width: 5.9rem;
+
+
+        ul{
+          @extend %flex;
+          li{
+          height: 3.2rem;
+            @extend %flex;
+            a{
+            p{
+              @include wh(100%,1.2rem);
+              border: 0;
+          }
+          img{
+            margin: 0.2rem;
+            @include wh(2.5rem,2.5rem);
+
+          }
+
+          }
+        }        }
+
+      }
+
+    }
+  }
+}
+//body {
+//  　　　　margin: (14px/2);
+//  　　　　top: 50px + 100px;
+//  　　　　right: $var * 10%;
+//  　　}
+//article a {
+//  color: blue;
+//  &:hover { color: red }
+//}
+///* 编译后 */
+//#content article h1 { color: #333 }
+//#content article p { margin-bottom: 1.4em }
+//#content aside { background-color: #EEE }
+//$nav-color: #F90;
+//nav {
+//  $width: 100px;
+//  width: $width;
+//  color: $nav-color;
+//}
+//.container {
+//  h1, h2, h3 {margin-bottom: .8em}
+//}
+//article {
+//  ~ article { border-top: 1px dashed #ccc }
+//  > section { background: #eee }
+//  dl > {
+//    dt { color: #333 }
+//    dd { color: #555 }
+//  }
+//  nav + & { margin-top: 0 }
+//}
+//nav {
+//  border: 1px solid #ccc {
+//    left: 0px;
+//    right: 0px;
+//  }
+//}
+//@mixin link-colors($normal, $hover, $visited) {
+//  color: $normal;
+//  &:hover { color: $hover; }
+//  &:visited { color: $visited; }
+//}
+//
+//a {
+//  @include link-colors(blue, red, green);
+//}
+//
+////Sass最终生成的是：
+//
+//a { color: blue; }
+//a:hover { color: red; }
+//a:visited { color: green; }
+////通过选择器继承继承样式
+//.error {
+//  border: 1px red;
+//  background-color: #fdd;
+//}
+//.seriousError {
+//  @extend .error;
+//  border-width: 3px;
+//}
+//.disabled {
+//  color: gray;
+//  @extend a;
+//}

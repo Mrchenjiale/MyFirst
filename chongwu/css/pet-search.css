@@ -1,0 +1,56 @@
+.wrapper {
+  width: 7.5rem;
+  margin: 0 auto; }
+
+.pet-search-page {
+  text-align: center;
+  font-size: 0; }
+  .pet-search-page form {
+    padding-top: 0.88rem;
+    background: #f7f7f7;
+    text-align: center; }
+    .pet-search-page form .search {
+      font-size: 0.3rem;
+      color: #858585;
+      width: 4.95rem;
+      height: 0.68rem;
+      line-height: 0.68rem;
+      padding-left: 0.75rem;
+      border: 1px solid #ccc;
+      border-radius: 0.1rem;
+      margin: 0.1rem 0;
+      background: url(../images/search.png) 0.3rem center no-repeat;
+      background-size: 0.33rem 0.33rem;
+      background-color: #fff; }
+    .pet-search-page form div {
+      border: 1px solid #ccc;
+      border-radius: 0.1rem;
+      display: inline-block;
+      width: 1.2rem;
+      height: 0.68rem;
+      line-height: 0.68rem;
+      color: #000;
+      font-size: 0.3rem;
+      background: #fff;
+      margin-left: 0.15rem;
+      cursor: pointer; }
+  .pet-search-page .title {
+    padding-top: 4rem;
+    font-size: 0.3rem;
+    padding-bottom: 0.3rem;
+    background: url(../images/search-line.png) bottom center no-repeat; }
+  .pet-search-page ul {
+    margin-top: 0.4rem; }
+  .pet-search-page li {
+    float: left;
+    color: #666; }
+  .pet-search-page li i {
+    font-size: 0.5rem; }
+  .pet-search-page li p {
+    font-size: 0.24rem;
+    margin-top: 0.2rem; }
+  .pet-search-page li:first-of-type {
+    margin-right: 0.8rem;
+    padding-left: 2.15rem; }
+  .pet-search-page li:last-of-type {
+    margin-left: 0.8rem; }

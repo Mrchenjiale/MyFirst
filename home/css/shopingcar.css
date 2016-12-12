@@ -1,0 +1,114 @@
+.content{
+	width:7.5rem;
+	padding:0.3rem 0;
+	background:#efeeee;	
+}
+.list>li{
+	padding:0.35rem 0.15rem;
+	margin-bottom:0.35rem;
+	background:#fff;
+	font-size:0;
+}
+.list-left{
+	float:left;
+	margin-left:0.15rem;
+	margin-top: 10%;
+}
+.list-left input{
+    display: none;
+}
+.list-left label{
+	display: inline-block;
+	width: 0.3rem;
+	height: 0.3rem;
+	border-radius:50%;
+	border: 1px solid #ccc;
+}
+input:checked+label{
+	background: #26ca28;
+}
+.list-mid{
+	float:left;
+	margin-left:0.8rem;
+}
+.list-mid img{
+	width:1.86rem;
+	height:1.97rem;
+}
+.list-right{
+	float:right;
+}
+.title{
+	font-size:0.3rem;
+	margin-bottom:0.4rem;
+}
+.adress{
+	font-size:0.26rem;
+	color:#999;
+	margin-bottom:0.4rem;
+}
+.price{
+	font-size:0.3rem;
+	color:#0eb852;
+}
+.price-right{
+	float:right;
+}
+.remove{
+	padding:40px 15px;
+	background:#fff;
+	border-top:1px solid #000;
+}
+.icon{
+	display: inline-block;
+	margin-right: 0.1rem;
+	width: 0.3rem;
+	height: 0.3rem;
+	font-size: 0.3rem!important;
+}
+.remove-top{
+	font-size:0.26rem;
+	margin-bottom:0.6rem;
+}
+.remove-top input{
+	display: none;
+}
+.remove-top>span{
+	margin-right: 0.2rem;
+}
+.remove-top label{
+	display: inline-block;
+	width: 0.3rem;
+	height: 0.3rem;
+	border-radius:50%;
+	border: 1px solid #ccc;
+	vertical-align: bottom;
+}
+.remove-mid{
+	font-size:0.26rem;
+	text-align:center;
+}
+.remove-bottom{
+	font-size:0.32rem;
+	text-align:center;
+	margin-top:0.3rem;
+}
+.remove-bottom>button{
+	width:3.7rem;
+	height:0.6rem;
+	background:#0eb852;
+	border: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

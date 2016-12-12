@@ -1,0 +1,76 @@
+<!doctype html>
+<head>
+	<meta charset="UTF-8" />
+	<title>shop-detail</title>
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0" />
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+	<link rel="stylesheet" type="text/css" href="css/mobile-reset.css">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/swiper.min.css">
+	<link rel="stylesheet" href="css/pet-shop-detail.css">
+	<script src="js/zepto.js"></script>
+	<style type="text/css">
+		/*.swiper-container {
+    width: 7.5rem;
+    height: 300px;
+} */
+	</style>
+</head>
+<body>
+	<div class="wrapper pet-shop-detail-wrapper">
+		<div class="swiper-container">
+			<div class="pet-shop-detail-icon-container">
+				<i class="iconfont">&#xe605;</i>
+				<i class="iconfont">&#xe60e;</i>
+				<i class="iconfont">&#xe60f;</i>
+				<i><span>14</span>张</i>
+			</div>
+		    <div class="swiper-wrapper">
+		        <div class="swiper-slide"><img src="images/shop-banner-1.jpg" alt="" /></div>
+		        <div class="swiper-slide"><img src="images/shop-banner-2.jpg" alt="" /></div>
+		        <div class="swiper-slide"><img src="images/shop-banner-3.jpg" alt="" /></div>
+		        <div class="swiper-slide"><img src="images/shop-banner-4.jpg" alt="" /></div>
+		        <div class="swiper-slide"><img src="images/shop-banner-5.jpg" alt="" /></div>
+		    </div>
+		</div>
+		<div class="swiper-pagination pet-shop-detail-page clearfix"></div>
+		<div class="pet-shop-detail-address">
+			<i class="iconfont">&#xe60d;</i>
+			<span class="clearfix">高新区玉兰街与春藤路交叉口向西100米路北（升龙又一城底商附03）</span>
+			<i class="iconfont">&#xe60c;</i>
+		</div>
+		<div class="pet-shop-detail-onbussiness">
+			<span >营业时间</span>
+			<p>
+				<span>周一至周五  08:00-22:00</span>
+				<span>周六至周日  09:00-24:00</span>
+			</p>
+		</div>
+		<div class="pet-shop-detail-onbussiness pet-shop-detail-intro">
+			<span>商户介绍</span>
+			<p>
+				发哥宠物美容美发主要服务：宠物诊疗、美容、洗澡、寄
+养等服务；宠物用品、狗粮、保健品等供应，欢迎各位爱
+宠物的宠友光临。
+			</p>
+		</div>
+		<div class="pet-shop-detail-key"><a href="pet-yuyue.html"><i>上门预约</i></a></div>
+	</div>
+	<script src="js/base.js"></script>
+	<script src="js/swiper-3.3.1.jquery.min.js"></script>
+</body>
+	<script>        
+	  var mySwiper = new Swiper ('.swiper-container', {
+	    direction: 'horizontal',
+	    loop: true,
+	    pagination: '.swiper-pagination',// 如果需要分页器
+	    paginationClickable :true,
+	    paginationBulletRender: function (index, className) {
+      		return '<span class="' + className + '">'  + '</span>';
+  		},
+	    autoplay:2000,
+	    autoplayDisableOnInteraction : false,
+	    speed:1000,
+	  })        
+	  </script>
+</html>

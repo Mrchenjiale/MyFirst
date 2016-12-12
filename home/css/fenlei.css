@@ -1,0 +1,90 @@
+#fenlei-wrap #nav ul, #fenlei-wrap #list #content, #fenlei-wrap #list #content #right ul, #fenlei-wrap #list #content #right ul li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-flow: wrap;
+      flex-flow: wrap; }
+
+#fenlei-wrap #nav {
+  border-top: 0.25rem solid #efeeee; }
+
+#fenlei-wrap #nav {
+  border-bottom: 0.25rem solid #efeeee; }
+
+#fenlei-wrap {
+  width: 7.5rem;
+  font-size: 0.3rem;
+  margin: 0 auto;
+  text-align: center; }
+  #fenlei-wrap a {
+    text-decoration: none; }
+  #fenlei-wrap #seach {
+    margin: 0.1rem;
+    border: 1px solid #a0a0a0;
+    width: 7.3rem;
+    height: 0.5rem;
+    line-height: 0.5rem;
+    border-radius: 0.1rem;
+    position: relative; }
+    #fenlei-wrap #seach i {
+      font-size: 0.4rem !important;
+      position: absolute;
+      left: 0;
+      top: -2px; }
+    #fenlei-wrap #seach input {
+      width: inherit;
+      border: 0;
+      box-sizing: border-box;
+      padding-left: 0.4rem;
+      color: #000;
+      outline: 0px;
+      border-radius: 0.1rem; }
+  #fenlei-wrap #nav {
+    overflow: hidden; }
+    #fenlei-wrap #nav ul li {
+      margin: 0.15rem;
+      position: relative; }
+      #fenlei-wrap #nav ul li a {
+        display: inline-block; }
+        #fenlei-wrap #nav ul li a img {
+          width: 1.39rem;
+          height: 1.34rem;
+          line-height: 1.34rem; }
+  #fenlei-wrap #list p {
+    width: 100%;
+    height: 0.75rem;
+    line-height: 0.75rem;
+    border-bottom: 1px solid #a0a0a0; }
+  #fenlei-wrap #list #content {
+    width: 7.5rem; }
+    #fenlei-wrap #list #content #left {
+      width: 1.6rem; }
+      #fenlei-wrap #list #content #left a {
+        display: inline-block;
+        width: 1.6rem;
+        height: 1.6rem;
+        line-height: 1.6rem;
+        box-sizing: border-box;
+        border-left: 0.1rem solid transparent;
+        background: #f5f5f5;
+        color: #000; }
+      #fenlei-wrap #list #content #left .active {
+        background: #fff;
+        border-left: 0.1rem solid #0eb852; }
+    #fenlei-wrap #list #content #right {
+      width: 5.9rem; }
+      #fenlei-wrap #list #content #right ul li {
+        height: 3.2rem; }
+        #fenlei-wrap #list #content #right ul li a p {
+          width: 100%;
+          height: 1.2rem;
+          line-height: 1.2rem;
+          border: 0; }
+        #fenlei-wrap #list #content #right ul li a img {
+          margin: 0.2rem;
+          width: 2.5rem;
+          height: 2.5rem;
+          line-height: 2.5rem; }

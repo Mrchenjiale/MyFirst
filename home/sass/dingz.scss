@@ -1,0 +1,87 @@
+@import "show.scss";
+$color:#000;
+$moneycolor:#f00;
+$dzfont:0.32rem;
+$whitebg:rgba(255,255,255,0.6);
+.dz-container{
+	font-size:$dzfont;
+}
+.dz-banner{
+	background:$bgcolor;
+	position:relative;
+	font-size:0;
+	margin-bottom:0.5rem;
+	img{
+		width:100%;
+	}
+}
+.dz-nav{
+	position:absolute;
+	bottom:0;
+	width:100%;
+	font-size:0;
+	background:$whitebg;
+	padding:0.15rem 0 0.1rem;
+	z-index: 10;
+	li{
+		font-size:$dzfont;
+		width:15.4%;
+		text-align:center;
+		display:inline-block;
+	}
+	li:last-child{
+		width:23%;
+	}
+}
+.nav-bg{
+	background:rgba(0,255,0,0.7);
+	position:absolute;
+	bottom:0;
+	left:0;
+	z-index:9;
+}
+.dz-content{
+	padding-top:0.5rem;
+}
+.swiper-slide{
+	li{
+		width:100%;
+		display:inline-block;
+		position:relative;
+		overflow:hidden;
+		margin-bottom:0.65rem;
+		img{
+			width:100%;
+		}
+	}
+}
+.whitecicle{
+	position:absolute;
+	left:50%;
+	top:50%;
+	margin-left:-1.65rem;
+	margin-top:-1.65rem;
+	width:3.3rem;
+	height:3.3rem;
+	border-radius:50%;
+	background:$whitebg;
+	display:flex;
+	justify-content:center;
+	p{
+		width:0.32rem;
+		display:inline-block;
+		align-self:center;
+		color:$color;
+		margin-right:0.3rem;
+		line-height:1.2;
+	}
+	span{
+		color:$moneycolor;
+	}
+	strong{
+		color:$moneycolor;
+		display:inline-block;
+		transform-origin:0.15rem 50%;
+		transform:rotate(90deg);
+	}
+}

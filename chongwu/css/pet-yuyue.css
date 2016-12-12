@@ -1,0 +1,82 @@
+.pet-yuyue {
+  margin-top: 0.88rem;
+  font-size: 0; }
+  .pet-yuyue select {
+    display: inline-block;
+    width: 1.31rem;
+    height: 0.56rem;
+    font-size: 0.3rem;
+    border-radius: 0.1rem;
+    padding-left: 0.2rem;
+    margin-top: 0.75rem; }
+  .pet-yuyue .s1 {
+    margin-left: 1.12rem; }
+  .pet-yuyue .s2 {
+    margin-left: 0.75rem; }
+  .pet-yuyue .maohao {
+    display: inline-block;
+    padding: 0 0.2rem;
+    font-weight: bold;
+    font-size: 0.5rem;
+    position: relative;
+    top: 0.05rem; }
+  .pet-yuyue .form1 {
+    margin-top: 0.35rem; }
+    .pet-yuyue .form1 .circle {
+      width: 0.3rem;
+      height: 0.3rem;
+      border-radius: 50%;
+      border: 1px solid #ccc;
+      display: inline-block;
+      margin-left: 1.13rem; }
+    .pet-yuyue .form1 label {
+      font-size: 0.28rem;
+      margin-left: 0.38rem;
+      vertical-align: top; }
+  .pet-yuyue .active {
+    background: #fe2d63;
+    /*appearance: none;*/ }
+  .pet-yuyue input {
+    width: 5.18rem;
+    height: 0.65rem;
+    border-radius: 0.1rem;
+    border: none;
+    border: 1px solid #ccc;
+    margin-left: 1.12rem;
+    font-size: 0.3rem; }
+  .pet-yuyue .inp1, .pet-yuyue .inp2 {
+    margin-top: 0.35rem;
+    padding-left: 0.3rem;
+    box-sizing: border-box; }
+  .pet-yuyue .inp3 {
+    background: #fe2d63;
+    color: #fff;
+    margin-top: 1.88rem; }
+  .pet-yuyue .zhu {
+    font-size: 0.26rem;
+    margin-left: 1.12rem;
+    margin-top: 0.28rem; }
+  .pet-yuyue .pop {
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none; }
+    .pet-yuyue .pop .tips {
+      display: none;
+      width: 6rem;
+      height: 2rem;
+      background: #fe2d63;
+      position: absolute;
+      top: 50%;
+      left: 3.75rem;
+      margin-left: -3rem;
+      margin-top: -1rem;
+      border-radius: 0.15rem; }
+      .pet-yuyue .pop .tips p {
+        color: #fff;
+        font-size: 0.3rem;
+        margin-top: 0.8rem;
+        margin-left: 1.8rem; }

@@ -1,0 +1,116 @@
+/*默认样式重置*/
+* {
+	margin: 0;
+	padding: 0;
+	font-family: "微软雅黑";
+}
+li {
+	list-style: none;
+}
+a {
+	text-decoration: none;
+}
+img {
+	border: none;
+}
+html {
+	font-size: 100px;
+}
+/*banner部分*/
+#banner img {
+	width: 7.5rem;
+	height: 3rem;
+}
+.list {
+	width: 7.5rem;
+}
+.list li {
+	width: 7.5rem;
+	height: 1.96rem;
+	border-bottom: 0.3rem solid #f5f5f5;
+}
+.list img {
+	float: left; 
+}
+.list .list1 .pc1 {
+	width: 1.48rem;
+	height: 1.48rem;
+	margin-top: 0.12rem;
+	margin-right: 0.36rem;
+	margin-left: 0.31rem;
+}
+.list .right {
+	float: left;
+}
+.list .right .p1 {
+	font-size: 0.26rem;
+	color: #545454;
+	font-weight: 700;
+	margin-top: 0.2rem;
+}
+.list .right img {
+	width: 0.27rem;
+	height: 0.34rem;
+	float: left;
+	margin-top: 0.21rem;
+	margin-right: 0.06rem;
+}
+.list .right .p2 {
+	font-size: 0.2rem;
+	float: left;
+	font-weight: 700;
+	color: #545454;
+	margin-top: 0.23rem;
+}
+.list .right .p3 {
+	font-size: 0.16rem;
+	color: #939393;
+	margin-top: 0.66rem;
+	margin-left: 0.33rem;
+}
+.blank {
+	width: 7.5rem;
+	height: 1.14rem;
+	background-color: #f3f3f3;
+	border-bottom: 0.01rem solid #ebebeb;
+}
+/*导航*/
+.subnav {
+	width: 7.5rem;
+	height: 1.1rem;
+	font-size: 0;
+	background-color: #fff;
+	position: fixed;
+	left: 0;
+	top: 12.25rem;
+}
+.subnav ul {
+	width: 5.94rem;
+	margin-left: 0.75rem;
+}
+.subnav ul li {
+	float: left;
+	width: 0.62rem;
+	text-align: center;
+}
+.subnav .first {
+	margin-right: 0.7rem;
+}
+.subnav ul img {
+	margin-top: 0.06rem;
+	width: 0.62rem;
+	height: 0.62rem;
+}
+#p1 {
+	color: #0093dd;
+}
+.subnav ul p {
+	font-size: 0.2rem;
+	color: #545454;
+}
+.blank1 {
+	height: 1.18rem;
+	width: 7.5rem;
+	background-color: #f5f5f5;
+	border-bottom: 0.01rem solid #ebebeb;
+}

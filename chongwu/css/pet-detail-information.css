@@ -1,0 +1,173 @@
+.pet-information {
+  font-size: 0; }
+  .pet-information .container {
+    margin-top: 0.88rem;
+    padding: 0.3rem 0 0.1rem 0;
+    box-sizing: border-box;
+    color: #333; }
+  .pet-information .content {
+    font-size: 0.24rem;
+    padding: 0 0.25rem;
+    box-sizing: border-box; }
+    .pet-information .content .title {
+      font-size: 0.32rem; }
+    .pet-information .content .author {
+      color: #999;
+      margin-bottom: 0.2rem; }
+      .pet-information .content .author span {
+        line-height: 0.5rem; }
+    .pet-information .content .tw {
+      text-indent: 2em;
+      line-height: 0.45rem; }
+    .pet-information .content img {
+      width: 7rem;
+      height: 3.93rem;
+      margin: 0.2rem 0; }
+  .pet-information .hot {
+    width: 1.75rem;
+    height: 0.4rem;
+    margin: 0.2rem 0; }
+  .pet-information .comment {
+    border-bottom: 1px solid #ccc;
+    padding: 0.2rem 0.25rem;
+    box-sizing: border-box;
+    font-size: 0.26rem;
+    position: relative; }
+    .pet-information .comment img {
+      width: 0.7rem;
+      height: 0.7rem; }
+    .pet-information .comment .aut {
+      display: inline-block; }
+      .pet-information .comment .aut span {
+        font-size: 0.28rem; }
+      .pet-information .comment .aut p {
+        color: #999; }
+      .pet-information .comment .aut i {
+        font-size: 0.26rem; }
+    .pet-information .comment .name {
+      margin-left: 0.1rem;
+      position: relative;
+      top: -0.1rem; }
+    .pet-information .comment .floor {
+      position: absolute;
+      top: 0.2rem;
+      right: 0.25rem;
+      color: #666; }
+    .pet-information .comment .com-content {
+      margin: 0.2rem 0;
+      font-size: 0.28rem; }
+    .pet-information .comment .com-foot {
+      margin-top: 0.2rem;
+      font-size: 0.26rem; }
+    .pet-information .comment .time {
+      font-size: 0.22rem;
+      color: #bbb; }
+      .pet-information .comment .time i {
+        font-size: 0.22rem; }
+    .pet-information .comment .good {
+      margin-left: 3.25rem;
+      margin-right: 0.35rem;
+      color: #666; }
+      .pet-information .comment .good i {
+        font-size: 0.26rem; }
+  .pet-information .search-more {
+    padding: 0.2rem;
+    box-sizing: border-box;
+    font-size: 0.28rem;
+    color: #666;
+    text-align: center; }
+  .pet-information .add {
+    padding: 0.1rem 0.25rem;
+    box-sizing: border-box; }
+    .pet-information .add input {
+      width: 5.7rem;
+      height: 0.7rem;
+      border: 1px solid #ccc;
+      border-radius: 0.1rem;
+      font-size: 0.3rem;
+      padding-left: 0.2rem;
+      box-sizing: border-box; }
+    .pet-information .add button {
+      width: 1.1rem;
+      height: 0.7rem;
+      border: 1px solid #ccc;
+      border-radius: 0.1rem;
+      font-size: 0.3rem;
+      position: relative;
+      top: 0;
+      left: 0.2rem;
+      background: #fff; }
+  .pet-information .share {
+    height: 20rem;
+    background: rgba(0, 0, 0, 0.6);
+    position: fixed;
+    z-index: 20;
+    left: 50%;
+    margin-left: -3.75rem;
+    display: none; }
+  .pet-information .share-content {
+    height: 7.3rem;
+    margin-top: 30%;
+    background: #fff;
+    text-align: center;
+    padding-top: 0.2rem; }
+    .pet-information .share-content img {
+      width: 1.24rem;
+      height: 1.24rem;
+      display: block;
+      margin-left: 0.65rem;
+      margin-bottom: 0.3rem; }
+    .pet-information .share-content span {
+      font-size: 0.3rem; }
+    .pet-information .share-content button {
+      width: 6.7rem;
+      height: 0.8rem;
+      border: 1px solid #ccc;
+      border-radius: 0.1rem;
+      font-size: 0.34rem;
+      color: #ff3300;
+      background: #fff;
+      margin-top: 0.7rem; }
+    .pet-information .share-content p {
+      font-size: 0.34rem;
+      color: #666; }
+  .pet-information ul li {
+    list-style: none;
+    float: left;
+    margin-top: 0.3rem;
+    width: 33.333%;
+    text-align: center;
+    position: relative; }
+  .pet-information .onload {
+    width: 100%;
+    height: 0.9rem;
+    background: #f5f5f5;
+    text-align: center;
+    line-height: 0.9rem;
+    color: #3f3e3e;
+    font-size: 0.28rem;
+    display: none; }
+    .pet-information .onload img {
+      width: 0.5rem;
+      height: 0.5rem;
+      vertical-align: middle;
+      margin-right: 0.1rem; }
+  .pet-information .load {
+    -webkit-animation: change 1s infinite;
+    animation: change 1s linear infinite; }
+
+@-webkit-keyframes change {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg); }
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg); } }
+
+@keyframes change {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg); }
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg); } }

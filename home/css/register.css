@@ -1,0 +1,98 @@
+.container-wh-register {
+  background: url("../images/bg2.jpg") no-repeat;
+  background-size: 100% 100%;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  font-family: "微软雅黑"; }
+  .container-wh-register .logo {
+    position: relative;
+    top: 1.3rem;
+    left: 50%;
+    width: 1.88rem;
+    margin-left: -0.94rem; }
+  .container-wh-register .infor {
+    margin-top: 1.9rem;
+    padding: 0 0.15rem; }
+  .container-wh-register .line {
+    width: 100%;
+    position: relative; }
+  .container-wh-register .in-before {
+    font-size: 0.6rem;
+    position: absolute;
+    left: 0.1rem;
+    bottom: 0.1rem; }
+  .container-wh-register .in-content {
+    width: 6.4rem;
+    height: 0.6rem;
+    font-size: 0.3rem;
+    　　　　color: #000;
+    border: 1px solid #ccc;
+    border-radius: 0.1rem;
+    background-color: #fff;
+    padding: 0.15rem 0 0.15rem 0.8rem; }
+  .container-wh-register .in-before-pwd {
+    bottom: 0.2rem; }
+  .container-wh-register .yanzheng {
+    width: 100%;
+    position: relative;
+    height: 2rem; }
+  .container-wh-register .yan-left {
+    width: 2.3rem;
+    height: 0.6rem;
+    position: absolute;
+    left: 0;
+    top: 0.3rem;
+    font-size: 0.3rem;
+    　　　　color: #000;
+    border: 1px solid #ccc;
+    border-radius: 0.1rem;
+    background-color: #fff;
+    padding: 0.15rem 1.1rem; }
+  .container-wh-register .yan-right {
+    width: 2.4rem;
+    height: 0.9rem;
+    position: absolute;
+    right: 0;
+    top: 0.3rem;
+    font-size: 0.3rem;
+    　　　　color: #000;
+    border: 1px solid #ccc;
+    border-radius: 0.1rem;
+    background-color: #fff;
+    background-color: #ccc; }
+  .container-wh-register .ok {
+    position: relative;
+    text-align: center;
+    width: 100%; }
+  .container-wh-register .ok-sub {
+    width: 5.2rem;
+    height: 0.9rem;
+    　　　　color: #000;
+    border: 1px solid #ccc;
+    border-radius: 0.1rem;
+    background-color: #fff;
+    font-size: 0.3rem;
+    border-radius: 0.4rem; }
+  .container-wh-register .foot {
+    font-size: 0.22rem;
+    position: relative;
+    width: 100%;
+    text-align: center;
+    top: 1.2rem;
+    left: 0;
+    color: #000; }
+  .container-wh-register input {
+    outline: none; }
+  .container-wh-register :-moz-placeholder {
+    /* Mozilla Firefox 4 to 18 */
+    color: #000; }
+  .container-wh-register ::-moz-placeholder {
+    /* Mozilla Firefox 19+ */
+    color: #000; }
+  .container-wh-register input:-ms-input-placeholder,
+  .container-wh-register textarea:-ms-input-placeholder {
+    color: #000; }
+  .container-wh-register input::-webkit-input-placeholder,
+  .container-wh-register textarea::-webkit-input-placeholder {
+    color: #000; }

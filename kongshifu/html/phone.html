@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0">
+	<script src="../js/rem.js"></script>
+	<link rel="stylesheet" href="../styles/phone.css">
+</head>
+<body>
+<div id="bg">
+	<div class="nav">
+		<img src="../images/head.png" alt="">
+		<div class="right">
+			<p class="tel">15598765487</p>
+			<p class="p1">猫小喵</p>
+		</div>
+	</div>
+	<div class="phone">
+		<p class="tel">12345678901</p>
+		<p class="p1">张先生</p>
+	</div>
+	<div class="phone">
+		<p class="tel">12345678901</p>
+		<p class="p1">张先生</p>
+	</div>
+	<div class="phone">
+		<p class="tel">12345678901</p>
+		<p class="p1">张先生</p>
+	</div>
+	<div class="phone">
+		<p class="tel">12345678901</p>
+		<p class="p1">张先生</p>
+	</div>
+	<div class="phone">
+		<p class="tel">12345678901</p>
+		<p class="p1">张先生</p>
+	</div>
+	<div class="phone">
+		<p class="tel">12345678901</p>
+		<p class="p1">张先生</p>
+	</div>
+	<div class="phone">
+		<p class="tel">12345678901</p>
+		<p class="p1">张先生</p>
+	</div>
+	<div class="phone">
+		<p class="tel">12345678901</p>
+		<p class="p1">张先生</p>
+	</div>
+	<div class="blank1"></div>
+	<div class="subnav">
+		<ul>
+			<li class="first">
+				<a href="index.html">
+					<img src="../images/icon1.png" alt="">
+					<p>首页</p>
+				</a>
+			</li>
+			<li class="first">
+				<a href="online.html">
+					<img src="../images/pic2-9.png" alt="">
+					<p>网点</p>
+				</a>
+			</li>
+			<li class="first">
+				<a href="shops.html">
+					<img src="../images/pic3-1.png" alt="">
+					<p>产品</p>
+				</a>
+			</li>
+			<li class="first">
+				<a href="news center.html">
+					<img src="../images/pic3-2.png" alt="">
+					<p>新闻</p>
+				</a>
+			</li>
+			<li class="second">
+				<a href="phone.html">
+					<img src="../images/05.png" alt="">
+					<p id="p1">电话</p>
+				</a>
+			</li>
+		</ul>
+	</div>
+</div>
+
+	<div id="tel">
+	</div>
+	<div id="fix">
+		<div class="top">
+			<p>1234567890</p>
+		</div>
+		<div class="bt">
+			<div class="left" id="left">
+				<p>确定</p>
+			</div>
+			<div class="right" id="right">
+				<p>取消</p>
+			</div>
+		</div>
+	</div>
+	
+</body>
+<script>
+	var tel=document.getElementById('tel');
+	var bg=document.getElementById('bg');
+	var fix=document.getElementById('fix');
+	var left=document.getElementById('left');
+	var right=document.getElementById('right');
+	bg.onclick=function(){
+		tel.style.display='block';
+		fix.style.display='block';
+	}
+	left.onclick=function(){
+		tel.style.display='none';
+		fix.style.display='none';
+	}
+	right.onclick=function(){
+		tel.style.display='none';
+		fix.style.display='none';
+	}
+</script>
+</html>

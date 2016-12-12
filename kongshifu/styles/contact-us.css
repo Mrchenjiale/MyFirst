@@ -1,0 +1,159 @@
+/*默认样式重置*/
+* {
+	margin: 0;
+	padding: 0;
+	font-family: "微软雅黑";
+}
+img {
+	border: none;
+}
+li {
+	list-style: none;
+}
+a {
+	text-decoration: none;
+}
+html {
+	font-size: 100px;
+}
+body {
+	background-color: #f5f5f5;
+}
+/*banner*/
+.banner img {
+	width: 7.5rem;
+	height: 3rem;
+}
+.tabnav {
+	width: 7.5rem;
+	height: 1.58rem;
+	border-bottom: 0.01rem solid #ccc;
+}
+.tabnav p {
+	margin-left: 0.3rem;
+}
+.tabnav .p1 {
+	font-size: 0.28rem;
+	color: #333;
+	margin-top: 0.3rem;
+}
+.tabnav .p2 {
+	font-size: 0.2rem;
+	color: #666;
+	margin-top: 0.14rem;
+}
+.tabnav .p3 {
+	font-size: 0.18rem;
+	color: #666;
+	margin-top: 0.15rem;
+}
+.nav {
+	width: 7.5rem;
+	height: 0.8rem;
+	border-bottom: 0.01rem solid #ccc; 
+}
+.nav p {
+	font-size: 0.2rem;
+	color: #333;
+	margin-top: 0.4rem;
+	font-weight: 700;
+	margin-left: 0.32rem;
+}
+.subnav {
+	width: 7.5rem;
+	border-bottom: 0.01rem solid #ccc;
+}
+.subnav p {
+	margin-left: 0.31rem;
+}
+.subnav .p1 {
+	font-size: 0.22rem;
+	color: #666;
+	margin-top: 0.11rem;
+	font-weight: bolder;
+}
+.subnav .p2 {
+	font-size: 0.28rem;
+	color: #666;
+	margin-top: 0.18rem;
+	font-weight: 700;
+}
+.subnav .p3 {
+	font-size: 0.14rem;
+	color: #707070;
+	margin-top: 0.14rem;
+}
+.subnav .p4 {
+	font-size: 0.24rem;
+	color: #333;
+	margin-top: 0.53rem;
+	font-weight: 700;
+	margin-bottom: 0.2rem;
+}
+.list {
+	width: 7.5rem;
+	border-bottom: 0.01rem solid #ebebeb;
+}
+.list h3 {
+	font-size: 0.22rem;
+	color: #666;
+	margin-top: 0.13rem;
+	margin-left: 0.33rem;
+}
+.list p {
+	font-size: 0.14rem;
+	color: #666;
+}
+.list .p1 {
+	margin-left: 0.31rem;
+	margin-top: 0.31rem;
+}
+.list .p2 {
+	margin-left: 0.31rem;
+	margin-top: 0.14rem;
+}
+.list .p3 {
+	margin-left: 0.41rem;
+	margin-top: 0.14rem;
+}
+.list .p4 {
+	margin-bottom: 0.82rem;
+}
+/*导航*/
+.sub {
+	width: 7.5rem;
+	height: 1.1rem;
+	background-color: #fff;
+	font-size: 0;
+	background-color: #fff;
+	position: fixed;
+	left: 0;
+	top: 12.25rem;
+}
+.sub ul {
+	width: 5.94rem;
+	margin-left: 0.75rem;
+}
+.sub ul li {
+	float: left;
+	width: 0.62rem;
+	text-align: center;
+}
+.sub .first {
+	margin-right: 0.7rem;
+}
+.sub ul img {
+	margin-top: 0.06rem;
+	width: 0.62rem;
+	height: 0.62rem;
+}
+.sub ul p {
+	font-size: 0.2rem;
+	color: #545454;
+}
+.blank1 {
+	height: 1.18rem;
+	width: 7.5rem;
+	background-color: #f5f5f5;
+	border-bottom: 0.01rem solid #ebebeb;
+}

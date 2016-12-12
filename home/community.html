@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>社区</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+    <link rel="stylesheet" type="text/css" href="css/mobile-reset.css">
+    <link rel="stylesheet" type="text/css" href="css/community.css">
+    <link rel="stylesheet" type="text/css" href="css/swiper-3.3.1.min.css">
+    <script src="js/base.js"></script>
+    <script src="js/Zepto.js"></script>
+    <script src="js/touch.js"></script>
+    <script src="js/fastclick.js"></script>
+    <script src="js/swiper-3.3.1.min.js"></script>
+</head>
+<body>
+    <header>
+        <a href="javascript:history.back()" class="header-left">
+            <i class="iconfont">&#xe615;</i>返回
+        </a>
+        <span class="header-center">
+            <i class="iconfont">&#xe627;</i>家居社区
+        </span>
+        <a href="#" class="header-right">
+            <i class="iconfont">&#xe61d;</i>
+        </a>
+    </header>
+    <div class="com-middler container-fys-community">
+        <div class="xshare">
+            <div class="bdsharebuttonbox fenshare">
+                <p class="sharetitle">分享到</p>
+                <a href="#">
+                    <img src="images/wx.png" class="bds_weixin" data-cmd="weixin" title="分享到微信">
+                    <p>微信</p>
+                </a>
+                <a href="#">
+                    <img src="images/qq.png" class="bds_sqq" data-cmd="sqq" title="分享到QQ好友">
+                    <p>QQ好友</p>
+                </a>
+                <a href="#">
+                    <img src="images/qqkj.png" class="bds_qzone" data-cmd="qzone" title="分享到QQ空间">
+                    <p>QQ空间</p>
+                </a>
+                <a href="#">
+                    <img src="images/xl.png" class="bds_tsina" data-cmd="tsina" title="分享到新浪微博">
+                    <p>新浪微博</p>
+                </a>
+                <a href="#">
+                    <img src="images/ren.png" class="bds_renren" data-cmd="renren" title="分享到人人网">
+                    <p>人人网</p>
+                </a>
+                <a href="#">
+                    <img src="images/more.png" class="bds_more" data-cmd="more">
+                    <p>更多</p>
+                </a>
+                <div class="canle">
+                    <input type="button" value="点击取消" id="dj">
+                </div>
+            </div>
+        </div>
+        <div class="title" id="shareandup">
+            <div class="share cur">分享</div>
+            <div class="handin">提问</div>
+        </div>
+        <div class="swiper-container">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide" id="clone">
+                    <div class="container">
+                        <div class="con-title clearfix">
+                            <img src="images/community3.png">
+                            <div class="con-name">
+                                <h3>幸福一小家</h3>
+                                <p>6小时前</p>
+                            </div>
+                        </div>
+                        <p class="con-p">为订制衣柜我做足功伙，商家非常热心，都有免费上门测量并帮助设计图纸的服务，各取所需，我如乐而不为呢...</p>
+                        <img src="images/community1.jpg" class="con-img">
+                    </div>
+                    <div class="container">
+                        <div class="con-title clearfix">
+                            <img src="images/community4.png">
+                            <div class="con-name">
+                                <h3>温暖如初</h3>
+                                <p>10小时前</p>
+                            </div>
+                        </div>
+                        <p class="con-p">周末了，火柴又来赶稿了，嘿嘿。。盼望已久的橱柜终于完全装好了，想想真是望眼欲穿啊，从年前就下了订单...</p>
+                        <img src="images/community2.jpg" class="con-img">
+                    </div>
+                    <div class="container">
+                        <div class="con-title clearfix">
+                            <img src="images/community5.png">
+                            <div class="con-name">
+                                <h3>夜雨潇潇</h3>
+                                <p>13小时前</p>
+                            </div>
+                        </div>
+                        <p class="con-p">为订制衣柜我做足功伙，商家非常热心，都有免费上门测量并帮助设计图纸的服务，各取所需，我如乐而不为呢...</p>
+                        <img src="images/community1.jpg" class="con-img">
+                    </div>
+                    <div class="jiaz"><i class="iconfont zhuand">&#xe635;</i>正在加载</div> 
+                </div>
+                <div class="swiper-slide">
+                    <form action="" class="top-search">
+                        <i class="iconfont">&#xe602;</i>
+                        <input type="text" name="sousuo" placeholder="请输入你想要的商品">
+                    </form>
+                    <div class="content">
+                        <div class="c-title clearfix">
+                            <img src="images/comm1.png">
+                            <p>奇小居</p>
+                        </div>
+                        <p class="c-container">小户型空间总是不够用，通常衣柜就占据着卧室较大一部分面积，卧室衣柜布局合不合理直接影响着卧室的空间便利与否。小户型衣柜要如何设计？</p>
+                        <div class="c-footer clearfix">
+                            <div class="c-l">
+                                <p>4月15日</p><p>15:30</p>
+                            </div>
+                            <div class="c-r">
+                                <i class="iconfont nodechoose">&#xe603;</i>
+                                <a class="iconfont" style="display: none;" id="node">&#xe603;</a>
+                                <i class="iconfont nodeshare">&#xe606;</i>
+                                <span>(19)</span>
+                                <i class="iconfont">&#xe611;</i>
+                                <span>(24)</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="content">
+                        <div class="c-title clearfix">
+                            <img src="images/comm2.png">
+                            <p>阳光过后</p>
+                        </div>
+                        <p class="c-container">隐形门，是装修创意中比较受欢迎的一种。隐形门的设计体现了设计者的创意，隐形门的做法与施工，你有了解过吗？家装中使用隐形门，有什么优缺点？</p>
+                        <div class="c-footer clearfix">
+                            <div class="c-l">
+                                <p>4月10日</p><p>11:10</p>
+                            </div>
+                            <div class="c-r">
+                                <i class="iconfont nodechoose">&#xe603;</i>
+                                <i class="iconfont nodeshare">&#xe606;</i>
+                                <span>(19)</span>
+                                <i class="iconfont">&#xe611;</i>
+                                <span>(24)</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="content">
+                        <div class="c-title clearfix">
+                            <img src="images/comm3.png">
+                            <p>岁月伊始</p>
+                        </div>
+                        <p class="c-container">阳台在装修的时候一般都会安装推拉门，主要用来抵挡风雨、隔绝噪音。那在选购时阳台推拉门的选购技巧有哪些呢？</p>
+                        <div class="c-footer clearfix">
+                            <div class="c-l">
+                                <p>4月8日</p><p>09:10</p>
+                            </div>
+                            <div class="c-r">
+                                <i class="iconfont nodechoose">&#xe603;</i>
+                                <i class="iconfont nodeshare">&#xe606;</i>
+                                <span>(19)</span>
+                                <i class="iconfont">&#xe611;</i>
+                                <span>(24)</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cfooter">
+                        <h2>案例展示</h2>
+                        <div class="cf-cont">
+                            <a href="">
+                                <img src="images/comm4.jpg">
+                            </a>
+                            <a href="">
+                                <img src="images/comm5.jpg">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="ccf"></div>
+    </div>
+    <footer>
+        <ul>
+            <li>
+                <a href="homepage.html">
+                    <i class="iconfont">&#xe627;</i>
+                    <p>首页</p>
+                </a>
+            </li>
+            <li>
+                <a href="fenlei-index.html">
+                    <i class="iconfont">&#xe616;</i>
+                    <p>分类</p>
+                </a>
+            </li>
+            <li>
+                <a href="community.html">
+                    <i class="cur iconfont">&#xe621;</i>
+                    <p>社区</p>
+                </a>
+            </li>
+            <li>
+                <a href="shoppingcar.html">
+                    <i class="iconfont">&#xe61b;</i>
+                    <p>购物车</p>
+                </a>
+            </li>
+            <li>
+                <a href="dingz.html">
+                    <i class="iconfont">&#xe617;</i>
+                    <p>我的定制</p>
+                </a>
+            </li>
+            <li>
+                <a href="gerenzhongxin.html">
+                    <i class="iconfont">&#xe628;</i>
+                    <p>个人中心</p>
+                </a>
+            </li>
+        </ul>
+    </footer>
+    <script src="js/community.js"></script>
+</body>
+</html>

@@ -1,0 +1,44 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1.0,user-scalable=no">
+    <title>引导页</title>
+    <link rel="stylesheet" href="css/swiper.min.css">
+    <link rel="stylesheet" href="css/mobile-reset.css">
+    <script type="text/javascript" src="js/base.js"></script>
+    <link rel="stylesheet" href="css/leader.css">
+</head>
+<body>
+    <div class="swiper-container">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide"><img src="images/leader_3.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="images/leader_2.jpg" alt=""></div>
+            <div class="swiper-slide">
+                <img src="images/leader_1.jpg" alt="">
+                <a href="index.html"><img src="images/leader_to_home.jpg" alt=""></a>
+            </div>
+        </div>
+        <!-- Add Pagination -->
+        <div id="pagination" class="swiper-pagination"></div>
+    </div>
+    <!-- Swiper JS -->
+    <script src="js/swiper.min.js"></script>
+    <script src="js/zepto.js"></script>
+    <!-- Initialize Swiper -->
+    <script>
+        var pagination = document.getElementById('pagination');
+        var swiper = new Swiper('.swiper-container', {
+            pagination: '.swiper-pagination',
+            onTransitionStart: function(swiper){
+                var index = swiper.activeIndex;
+                if (index==2) {
+                    pagination.style.display="none";
+                }else{
+                    pagination.style.display="block";
+                }
+            }
+        });
+    </script>
+</body>
+</html>

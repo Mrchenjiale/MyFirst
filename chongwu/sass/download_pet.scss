@@ -1,0 +1,129 @@
+$f3f3f3:#f3f3f3;
+$fe2d63:#fe2d63;
+.download_top{
+    padding-top:1.28rem;
+    background-color:$f3f3f3;
+}
+.font_size{
+    font-size:0.26rem;
+}
+.font_size{
+    input{
+    border:none;
+    width:4rem;
+    outline:none;
+    }
+    input::input-placeholder{
+    color:#e3e3e3;
+    }
+    .btn {
+    width: 5.7rem;
+    height: 0.7rem;
+    border: none;
+    border-radius: 0.1rem;
+    color: #fff;
+    font-size: 0.32rem;
+    outline: none;
+    }
+    .color_d{
+    margin-bottom: 0.28rem;
+    background-color: $fe2d63;
+    }
+    .color_z{
+    margin-bottom: 0.28rem;
+    background-color: #bfbfbf;
+    }
+}
+.ul_left{
+    background-color:#fff;
+    padding-left:0.4rem;
+}
+@mixin left{
+    background-size:0.4rem 0.4rem;
+    padding-left:0.6rem;
+}
+.icon_bcg{
+    background:url(../images/icon_03.png) 0 center no-repeat;
+    @include left;
+}
+.icon_bcg1{
+    background:url(../images/icon_07.png) 0 center no-repeat;
+    @include left;
+}
+.icon_bcg2{
+    background:url(../images/icon_10.png) 0 center no-repeat;
+    @include left;
+    position:relative;
+}
+.ul_left{
+    li{
+        label{
+        padding-right:0.3rem;
+        }
+    }
+}
+.cur_li{
+    padding:0.3rem 0;
+    margin-left:1.5rem;
+}
+.test{
+    width:1.5rem;
+    height:0.56rem;
+    border:2px solid $fe2d63;
+    position:absolute;
+    top:0.15rem;
+    right:0.35rem;
+    border-radius:0.05rem;
+    text-align:center;
+    line-height:0.56rem;
+    color:$fe2d63;
+}
+.ul_left{
+    li{
+        div{
+            border-bottom:1px solid $f3f3f3;
+            padding:0.3rem 0;
+        }
+    }
+}
+.btn_block {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 0.4rem 0.9rem 3.45rem 0.9rem;
+    background-color: $f3f3f3;
+}
+.font_load{
+    padding:0 0.25rem 2.57rem 0.25rem;
+    background:$f3f3f3;
+}
+.oth_type_tit {
+    border-top: 1px solid #c3c3c3;
+    padding-top: 0.1rem;
+    padding-bottom: 10px\9;
+}
+.oth_type_txt {
+    font-size: 0.28rem;
+    color: #666;
+    margin: 0 auto;
+    text-align: center;
+    width: 100% \9;
+    padding:0 0.2rem;
+}
+fieldset {
+    border:none;
+    border-top: 1px solid #c0c0c0;
+    margin: 0 ;
+    padding: 0;
+}
+.oth_type_links {
+    padding-top: 0.3rem;
+    text-align: center;
+    font-size:0;
+    img{
+        width:1.2rem;
+        height:1.2rem;
+    }
+    .img_w{
+        padding:0 1.05rem;
+    }
+}

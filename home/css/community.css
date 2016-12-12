@@ -1,0 +1,357 @@
+@font-face {
+  font-family: "iconfont";
+  src: url("iconfont.eot?t=1472043197");
+  /* IE9*/
+  src: url("iconfont.eot?t=1472043197#iefix") format("embedded-opentype"), url("iconfont.woff?t=1472043197") format("woff"), url("iconfont.ttf?t=1472043197") format("truetype"), url("iconfont.svg?t=1472043197#iconfont") format("svg");
+  /* iOS 4.1- */ }
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-stroke-width: 0.2px;
+  -moz-osx-font-smoothing: grayscale; }
+
+.com-middler {
+  max-width: 750px;
+  margin: 0 auto; }
+
+header {
+  position: fixed;
+  width: 100%;
+  left: 0;
+  z-index: 10;
+  top: 0;
+  background: #0eb852;
+  height: 1rem;
+  line-height: 1rem;
+  text-align: center;
+  font-size: 0.36rem;
+  color: #fff; }
+
+a {
+  display: inline-block;
+  text-decoration: none; }
+
+* {
+  box-sizing: border-box; }
+
+body {
+  padding: 1rem 0 1.1rem;
+  max-width: 750px;
+  margin: 0 auto; }
+
+header i {
+  display: inline-block;
+  font-size: 0.4rem !important; }
+
+header a {
+  color: #fff; }
+
+header .header-left {
+  position: absolute;
+  left: 0.18rem; }
+
+header .header-right {
+  position: absolute;
+  right: 0.18rem; }
+
+header .header-center i {
+  margin: -2px 0.1rem 0 0; }
+
+footer {
+  position: fixed;
+  width: 100%;
+  left: 0;
+  z-index: 10;
+  bottom: 0;
+  background: #fff;
+  font-size: 0;
+  border-top: 1px solid #bbbbbb;
+  border-bottom: 1px solid #bbbbbb; }
+  footer li {
+    width: 16%;
+    display: inline-block;
+    padding: 0.05rem 0;
+    text-align: center;
+    font-size: 0.2rem; }
+    footer li i {
+      display: inline-block;
+      width: 0.6rem;
+      height: 0.6rem;
+      border-radius: 50%;
+      line-height: 0.6rem;
+      font-size: 0.4rem !important;
+      background: #bbbbbb;
+      color: #fff; }
+    footer li p {
+      margin-top: 0.1rem;
+      color: #422828; }
+    footer li .cur {
+      background: #0eb852; }
+
+.container-fys-community {
+  width: 100%;
+  background: #efeeee; }
+  .container-fys-community .title {
+    padding-top: 0.18rem;
+    margin-bottom: 0.15rem;
+    width: 100%;
+    font-size: 0;
+    text-align: center;
+    background: #fff;
+    color: #333; }
+  .container-fys-community .share, .container-fys-community .handin {
+    display: inline-block;
+    font-size: 0.32rem;
+    line-height: 0.65rem;
+    cursor: pointer; }
+  .container-fys-community .handin {
+    margin-left: 0.73rem;
+    cursor: pointer; }
+  .container-fys-community .cur {
+    color: #0eb852;
+    border-bottom: 3px solid #0eb852; }
+  .container-fys-community .container {
+    width: 100%;
+    background: #fff;
+    box-sizing: border-box;
+    padding: 0.3rem 0.15rem;
+    font-size: 0;
+    margin-bottom: 0.4rem; }
+  .container-fys-community .con-title {
+    width: 100%;
+    font-size: 0; }
+    .container-fys-community .con-title img {
+      float: left;
+      width: 0.72rem;
+      height: 0.72rem;
+      margin-right: 0.15rem; }
+    .container-fys-community .con-title .con-name {
+      float: left; }
+      .container-fys-community .con-title .con-name h3 {
+        color: #333;
+        font-size: 0.3rem; }
+      .container-fys-community .con-title .con-name p {
+        color: #999;
+        font-size: 0.26rem; }
+  .container-fys-community .con-p {
+    margin: 0.13rem 0 0.15rem;
+    line-height: 0.4rem;
+    width: 100%;
+    color: #333;
+    font-size: 0.24rem; }
+  .container-fys-community .con-img {
+    width: 7.18rem;
+    height: 3.41rem; }
+  .container-fys-community .top-search {
+    font-size: 0.28rem;
+    margin: 0.15rem 0.15rem 0.3rem;
+    position: relative; }
+    .container-fys-community .top-search i {
+      font-size: 0.3rem;
+      position: absolute;
+      right: 0.12rem;
+      top: 0.1rem;
+      color: #2e2d3c;
+      z-index: 1; }
+    .container-fys-community .top-search input {
+      width: 100%;
+      height: 0.5rem;
+      line-height: 0.5rem;
+      border: 1px solid #bfbfbf;
+      border-radius: 5px;
+      color: #333;
+      padding-left: 0.15rem;
+      padding-right: 0.46rem;
+      background: #fff; }
+  .container-fys-community .content {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0.3rem 0.15rem 0.2rem;
+    background: #fff;
+    margin-bottom: 0.15rem; }
+  .container-fys-community .c-title {
+    width: 100%; }
+    .container-fys-community .c-title img {
+      width: 0.8rem;
+      height: 0.8rem;
+      float: left; }
+    .container-fys-community .c-title p {
+      float: left;
+      margin-left: 0.1rem;
+      line-height: 0.8rem;
+      font-size: 0.3rem;
+      color: #333; }
+  .container-fys-community .c-container {
+    margin: 0.2rem 0 0.35rem;
+    font-size: 0.26rem;
+    color: #333;
+    line-height: 0.35rem; }
+  .container-fys-community .c-footer {
+    width: 100%; }
+  .container-fys-community .c-l {
+    float: left;
+    font-size: 0; }
+    .container-fys-community .c-l p {
+      font-size: 0.24rem;
+      color: #777;
+      display: inline-block; }
+    .container-fys-community .c-l p:nth-child(2) {
+      margin-left: 0.3rem; }
+  .container-fys-community .c-r {
+    float: right;
+    width: 45%;
+    font-size: 0;
+    color: #0db850; }
+    .container-fys-community .c-r i {
+      font-size: 0.3rem;
+      cursor: pointer; }
+    .container-fys-community .c-r i:nth-of-type(2) {
+      margin-left: 0.5rem;
+      font-size: 0.36rem; }
+    .container-fys-community .c-r i:nth-of-type(3) {
+      margin-left: 0.5rem;
+      font-size: 0.28rem; }
+    .container-fys-community .c-r span {
+      margin-left: 0.1rem;
+      font-size: 0.26rem;
+      color: #333; }
+  .container-fys-community .cfooter {
+    margin: 0.2rem 0;
+    width: 100%;
+    background: #fff; }
+    .container-fys-community .cfooter h2 {
+      line-height: 0.8rem;
+      font-size: 0.32rem;
+      color: #333;
+      text-align: center; }
+  .container-fys-community .cf-cont {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0.08rem 0.15rem 0.42rem;
+    font-size: 0; }
+    .container-fys-community .cf-cont a:nth-child(1) {
+      display: inline-block;
+      width: 3.4rem;
+      height: 2.41rem;
+      border-radius: 0.1rem;
+      overflow: hidden; }
+      .container-fys-community .cf-cont a:nth-child(1) img {
+        width: 3.4rem;
+        height: 2.41rem; }
+    .container-fys-community .cf-cont a:nth-child(2) {
+      display: inline-block;
+      margin-left: 0.5rem;
+      width: 3.3rem;
+      height: 2.41rem;
+      border-radius: 0.1rem;
+      overflow: hidden; }
+      .container-fys-community .cf-cont a:nth-child(2) img {
+        width: 3.3rem;
+        height: 2.41rem; }
+  .container-fys-community .xshare {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6); }
+  .container-fys-community .fenshare {
+    position: absolute;
+    top: 20%;
+    left: 0;
+    background: #fff;
+    width: 100%;
+    font-size: 0;
+    text-align: center; }
+    .container-fys-community .fenshare a {
+      float: none;
+      width: 33%;
+      font-size: 0;
+      height: 1.8rem;
+      background-image: none;
+      padding: 0;
+      margin: 0;
+      margin-top: 0.3rem; }
+      .container-fys-community .fenshare a img {
+        width: 1.24rem;
+        height: 1.24rem; }
+      .container-fys-community .fenshare a p {
+        font-size: 0.26rem;
+        text-align: center;
+        color: #333; }
+  .container-fys-community .bds_more {
+    padding-left: 0 !important;
+    background-image: none !important;
+    float: none !important;
+    margin: 0 !important; }
+  .container-fys-community .canle {
+    font-size: 0.26rem;
+    color: #333;
+    line-height: 1rem;
+    text-align: center;
+    border-top: 1px solid #ccc; }
+    .container-fys-community .canle input {
+      padding: 0.1rem 0.3rem;
+      background: #fff;
+      border-radius: 0.5rem; }
+  .container-fys-community .sharetitle {
+    font-size: 0.36rem;
+    color: #333;
+    line-height: 1rem;
+    text-align: center;
+    border-bottom: 1px solid #ccc; }
+  .container-fys-community .ccf {
+    width: 100%;
+    height: 1px; }
+  .container-fys-community .jiaz {
+    text-align: center;
+    font-size: 0.2rem;
+    position: fixed;
+    left: 50%;
+    margin-left: -0.8rem;
+    bottom: 0.1rem;
+    color: #000;
+    display: none; }
+  .container-fys-community .zhuand {
+    font-size: 0.3rem;
+    -webkit-animation: change 1s infinite;
+    animation: change 1s linear infinite; }
+
+@-webkit-keyframes change {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg); }
+  25% {
+    -webkit-transform: rotate(90deg);
+            transform: rotate(90deg); }
+  50% {
+    -webkit-transform: rotate(180deg);
+            transform: rotate(180deg); }
+  75% {
+    -webkit-transform: rotate(270deg);
+            transform: rotate(270deg); }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg); } }
+
+@keyframes change {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg); }
+  25% {
+    -webkit-transform: rotate(90deg);
+            transform: rotate(90deg); }
+  50% {
+    -webkit-transform: rotate(180deg);
+            transform: rotate(180deg); }
+  75% {
+    -webkit-transform: rotate(270deg);
+            transform: rotate(270deg); }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg); } }

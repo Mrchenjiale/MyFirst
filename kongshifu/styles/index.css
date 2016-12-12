@@ -1,0 +1,295 @@
+/*默认样式重置*/
+* {
+	margin: 0;
+	padding: 0;
+	font-family: "微软雅黑";
+}
+img {
+	border: none;
+}
+li {
+	list-style: none;
+}
+a {
+	text-decoration: none;
+}
+html {
+	font-size: 100px;
+}
+/*banner*/
+.swiper-slide {
+	width: 7.5rem;
+	height: 3.64rem;
+}
+.swiper-slide img {
+	width: 7.5rem;
+	height: 3.64rem;
+}
+.blank {
+	height: 0.1rem;
+	width: 7.5rem;
+	background-color: #f5f5f5;
+	border-bottom: 0.01rem solid #ebebeb;
+}
+.products {
+	width: 7.5rem;
+	height: 2.06rem;
+	border-bottom: 0.01rem solid #ebebeb;
+}
+.columns {
+	width: 6.58rem;
+	margin: 0 auto;
+}
+.columns li {
+	float: left;
+	width: 1.14rem;
+	text-align: center;
+}
+.columns img {
+	width: 1.14rem;
+	height: 1.14rem;
+	margin-top: 0.25rem;
+}
+.columns p{
+	font-size: 0.2rem;
+	color: #4b4b4b;
+	font-weight: 700;
+}
+.columns .pt1 {
+	margin-right: 0.67rem;
+}
+/*产品展示*/
+.tab {
+	width: 7.15rem;
+	height: 0.64rem;
+	margin-left: 0.15rem;
+	border-bottom: 0.01rem solid #ebebeb;
+	line-height: 0.64rem;
+}
+.tab img {
+	width: 0.29rem;
+	height: 0.28rem;
+	float: left;
+	margin: 0.19rem 0.13rem 0.17rem 0.12rem;
+}
+.tab p {
+	font-size: 0.28rem;
+	color: #545454;
+	font-weight: 700;
+	float: left;
+}
+.shops {
+	width: 7.5rem;
+}
+.shops li {
+	height: 1.9rem;
+	width: 7.5rem;
+	overflow: hidden;
+	border-bottom: 0.01rem solid #ebebeb;
+}
+.shops .pic1 .pc1{
+	width: 1.7rem;
+	height: 1.1rem;
+	float: left;
+	margin: 0.5rem 0.18rem 0.25rem 0.24rem;
+}
+.shops .pic1 .right {
+	float: left;
+}
+.shops .pic1 .right .p1 {
+	font-size: 0.22rem;
+	color: #545454;
+	font-weight: 700;
+	margin-top: 0.38rem;
+}
+.shops .pic1 .right .p2 {
+	font-size: 0.2rem;
+	color: #8b8b8b;
+	margin-top: 0.15rem;
+}
+.shops .pic1 .right .p3 {
+	float: left;
+	font-size: 0.2rem;
+	margin-top: 0.16rem;
+	color: #0093dd;
+	border: 0.01rem solid #0093dd;
+	display: block;
+	width: 0.94rem;
+	height: 0.34rem;
+	text-align: center;
+	line-height: 0.34rem;
+	border-radius: 0.04rem;
+}
+.shops .pic1 .right .p4 {
+	float: left;
+	font-size: 0.16rem;
+	margin-top: 0.16rem;
+	margin-left: 0.1rem;
+	color: #ff9e20;
+	display: block;
+	width: 0.94rem;
+	height: 0.34rem;
+	text-align: center;
+	line-height: 0.34rem;
+	border: 0.01rem solid #ff9e20;
+	border-radius: 0.04rem;
+}
+/*网店支持*/
+.tab1 {
+	width: 7.15rem;
+	height: 0.64rem;
+	line-height: 0.64rem;
+	margin-left: 0.15rem;
+	border-bottom: 0.01rem solid #ebebeb;
+}
+.tab1 img {
+	width: 0.27rem;
+	height: 0.34rem;
+	float: left;
+	margin: 0.17rem 0.14rem 0.12rem 0.15rem;
+}
+.tab1 p {
+	font-size: 0.28rem;
+	color: #545454;
+	float: left;
+	font-weight: 700;
+}
+.list {
+	width: 7.5rem;
+}
+.list li {
+	height: 2.46rem;
+	overflow: hidden;
+	border-bottom: 0.01rem solid #ebebeb;
+}
+.list .list1 .pc2 {
+	width: 2.0rem;
+	height: 1.8rem;
+	float: left;
+	margin-top: 0.2rem;
+	margin-left: 0.14rem;
+	margin-right: 0.16rem;
+}
+.list .list1 .right {
+	float: left;
+} 
+.list .list1 .right .b1 {
+	font-size: 0.26rem;
+	color: #545454;
+	font-weight: 700;
+	margin-top: 0.33rem;
+}
+.list .list1 .right img {
+	width: 0.27rem;
+	height: 0.34rem;
+	float: left;
+	margin-top: 0.23rem;
+}
+.list .list1 .right .b2 {
+	font-size: 0.2rem;
+	color: #8b8b8b;
+	margin-top: 0.25rem;
+	float: left;
+	margin-left: 0.1rem;
+}
+.list .list1 .right .b3 {
+	font-size: 0.2rem;
+	color: #8b8b8b;
+	margin-top: 0.7rem;
+}
+.list .list1 .right .b4 {
+	font-size: 0.2rem;
+	color: #8b8b8b;
+	margin-top: 0.13rem;
+}
+/*企业形象*/
+.tab2 {
+	width: 7.15rem;
+	height: 0.64rem;
+	line-height: 0.64rem;
+	margin-left: 0.15rem;
+	overflow: hidden;
+	border-bottom: 0.01rem solid #ebebeb;
+}
+.tab2 img {
+	width: 0.33rem;
+	height: 0.33rem;
+	float: left;
+	margin: 0.17rem 0.1rem 0.12rem 0.1rem;
+}
+.tab2 p {
+	font-size: 0.28rem;
+	color: #545454;
+	float: left;
+	font-weight: 700;
+}
+.company {
+	width: 7.5rem;
+	overflow: hidden;
+}
+.company .cp1 {
+	width: 3.44rem;
+	height: 1.58rem;
+	float: left;
+	margin: 0.13rem 0.1rem 0.24rem 0.24rem;
+}
+.company .cp2 {
+	width: 3.44rem;
+	height: 1.58rem;
+	float: left;
+	margin-top: 0.13rem;
+}
+.ipts {
+	width: 7.5rem;
+	border-bottom: 0.01rem solid #ebebeb;
+}
+.ipt {
+	width: 7rem;
+	margin-left: 0.25rem;
+	padding-bottom: 0.2rem;
+}
+.ipt p {
+	line-height: 0.35rem;
+	font-size: 0.2rem;
+	color: #545454;
+}
+/*导航*/
+.subnav {
+	width: 7.5rem;
+	height: 1.1rem;
+	font-size: 0;
+	background-color: #fff;
+	position: fixed;
+	left: 0;
+	top: 12.25rem;
+}
+.subnav ul {
+	width: 5.94rem;
+	margin-left: 0.75rem;
+}
+.subnav ul li {
+	float: left;
+	width: 0.62rem;
+	text-align: center;
+}
+.subnav .first {
+	margin-right: 0.7rem;
+}
+.subnav ul img {
+	margin-top: 0.06rem;
+	width: 0.62rem;
+	height: 0.62rem;
+}
+#p1 {
+	color: #0093dd;
+}
+.subnav ul p {
+	font-size: 0.2rem;
+	color: #545454;
+}
+.blank1 {
+	height: 1.18rem;
+	width: 7.5rem;
+	background-color: #f5f5f5;
+	border-bottom: 0.01rem solid #ebebeb;
+}

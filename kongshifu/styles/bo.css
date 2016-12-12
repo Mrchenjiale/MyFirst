@@ -1,0 +1,86 @@
+/*默认样式重置*/
+* {
+	margin: 0;
+	padding: 0;
+	font-family: "微软雅黑";
+}
+img {
+	border: none;
+}
+li {
+	list-style: none;
+}
+a {
+	text-decoration: none;
+}
+html {
+	font-size: 100px;
+}
+.shops {
+	width: 7.5rem;
+}
+.shops li {
+	height: 2.1rem;
+	width: 7.5rem;
+	overflow: hidden;
+	border-bottom: 0.32rem solid #f5f5f5;
+}
+.shops .pic1 .pc1{
+	width: 1.4rem;
+	height: 1rem;
+	float: left;
+	margin: 0.5rem 0.14rem 0.25rem 0.16rem;
+}
+.shops .pic1 .right {
+	float: left;
+}
+.shops .pic1 .right .p1 {
+	font-size: 0.22rem;
+	color: #545454;
+	font-weight: 700;
+	margin-top: 0.38rem;
+}
+.shops .pic1 .right .p2 {
+	font-size: 0.18rem;
+	color: #8b8b8b;
+	margin-top: 0.15rem;
+}
+.shops .pic1 .right .p3 {
+	float: left;
+	font-size: 0.2rem;
+	margin-top: 0.16rem;
+	color: #0093dd;
+	border: 0.01rem solid #0093dd;
+	display: block;
+	width: 0.94rem;
+	height: 0.34rem;
+	text-align: center;
+	line-height: 0.34rem;
+	border-radius: 0.04rem;
+	margin-bottom: 0.3rem;
+}
+.shops .pic1 .right .p4 {
+	float: left;
+	font-size: 0.16rem;
+	margin-top: 0.16rem;
+	margin-left: 0.1rem;
+	color: #ff9e20;
+	display: block;
+	width: 0.94rem;
+	height: 0.34rem;
+	text-align: center;
+	line-height: 0.34rem;
+	border: 0.01rem solid #ff9e20;
+	border-radius: 0.04rem;
+	margin-bottom: 0.3rem;
+}
+.bt {
+	width: 7.5rem;
+	background-color: #f5f5f5;
+}
+.bt img {
+	width: 0.25rem;
+	height: 0.27rem;
+	margin-left: 3.2rem;
+	margin-bottom: 0.3rem;
+}

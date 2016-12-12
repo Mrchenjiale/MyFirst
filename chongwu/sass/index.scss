@@ -1,0 +1,81 @@
+body{
+    width: 100%;
+    min-width: 3.2rem;
+}
+.wapper{
+    width: 7.5rem;
+    margin: 0 auto;
+}
+$color: #fe2d63;
+.line{
+    height:0.4rem;
+}
+.header {
+  background-color: $color;
+  height: 0.9rem;
+  line-height: 0.9rem;
+  font-size: 0;
+}
+.pet_bcg {
+  background: url(../images/icon-location.png) 0 center no-repeat;
+  font-size: 0.32rem;
+  padding-left: 0.4rem;
+  margin-left: 0.1rem;
+  background-size: 0.44rem 0.44rem;
+  color: #fff; 
+}
+.pet_int {
+  margin-left: 0.5rem;
+  width: 4.9rem;
+  height: 0.56rem;
+  border-radius: 5px;
+  background: url(../images/icon-fdj.png) 0.25rem center no-repeat;
+  color: #ccc;
+  padding-left: 0.7rem;
+  background-color: #fff;
+  background-size: 0.35rem 0.35rem;
+  font-size: 0.3rem;
+  border: none; 
+}
+.swipet-container{
+  height:3.5rem;
+}
+.swiper-container{
+    img{
+    width:100%;
+    height:100%;
+    }
+}
+.swiper-pagination-bullet {
+  width:0.2rem;
+  height:0.2rem;
+  background-color:#fff;
+}
+.swiper-pagination-bullet-active{
+  background-color:#ccc;
+}
+.nav_common{
+  width:33.333%;
+  text-align:center;
+  font-size:0.32rem;
+  color:#333333;
+  float:left;
+}
+.nav_common{
+  img{
+    width:1.45rem;
+    height:1.45rem;
+  }
+}
+.nav_common{
+  p{
+    margin-bottom:0.2rem;
+  }
+}
+.nav_block{
+  padding-bottom:1.8rem;
+}
+a{
+    color: #333333;
+    display: block;
+}

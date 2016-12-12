@@ -1,0 +1,62 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=no" />
+    <title>宠物</title>
+    <link rel="stylesheet" type="text/css" href="css/mobile-reset.css">
+    <link rel="stylesheet" href="css/swiper.min.css">
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+    <link rel="stylesheet" href="css/common.css">
+</head>
+<script src="js/base.js"></script>
+<body>
+    <header class="header wrapper">
+        <span class="pet_bcg">郑州</span>
+        <input type="text" class="pet_int" placeholder="请输入关键字">
+    </header>
+    <div class="wapper swiper-container">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide"><img src="images/banner.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="images/banner.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="images/banner.jpg" alt=""></div>
+        </div>
+        <!-- Add Pagination -->
+        <div class="swiper-pagination"></div>
+    </div>
+    <div class="wapper nav">
+        <ul class="nav_block clearfix">
+            <li class="nav_common"><a href="Pet-Expert-Online.html"><img src="images/nav.jpg" alt=""><p>专家在线</p></a></li>
+            <li class="nav_common"><a href="pet-cityService.html"><img src="images/nav1.jpg" alt=""><p>同城服务</p></a></li>
+            <li class="nav_common"><a href="#"><img src="images/nav2.jpg" alt=""><p>养宠宝典</p></a></li>
+            <li class="nav_common"><a href="#"><img src="images/nav3.jpg" alt=""><p>热门活动</p></a></li>
+            <li class="nav_common"><a href="#"><img src="images/nav4.jpg" alt=""><p>遛遛推荐</p></a></li>
+            <li class="nav_common"><a href="consult_pet.html"><img src="images/nav5.jpg" alt=""><p>宠物资讯</p></a></li>
+            <li class="nav_common"><a href="#"><img src="images/nav6.jpg" alt=""><p>宠友公益</p></a></li>
+            <li class="nav_common"><a href="#"><img src="images/nav7.jpg" alt=""><p>添加卡片</p></a></li>
+            <li class="nav_common"><a href="#"><img src="images/nav8.jpg" alt=""><p>管理卡片</p></a></li>
+        </ul>
+    </div>
+    <footer class="foot">
+        <ul class="clearfix">
+            <li><a href="index.html" class="oncur"><i class="iconfont">&#xe629;</i><p>首页</p></a></li>
+            <li><a href="pet-liu.html"><i class="iconfont">&#xe626;</i><p>遛遛</p></a></li>
+            <li><a href="pet-service.html"><i class="iconfont">&#xe623;</i><p>服务</p></a></li>
+            <li><a href="pet-mydata.html"><i class="iconfont">&#xe600;</i><p>我的</p></a></li>
+        </ul>
+    </footer>
+    <script src="js/zepto.js"></script>
+    <script src="js/touch.js"></script>
+    <!-- Swiper JS -->
+    <script src="js/swiper-3.3.1.jquery.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+    var swiper = new Swiper('.swiper-container', {
+        pagination: '.swiper-pagination',
+        paginationClickable: true,
+        loop:true
+    });
+    </script>
+</body>
+</html>

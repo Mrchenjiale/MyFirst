@@ -1,0 +1,141 @@
+/*样式重置*/
+* {
+	margin: 0;
+	padding: 0;
+	font-family: "微软雅黑";
+}
+li {
+	list-style: none;
+}
+a {
+	text-decoration: none;
+}
+img {
+	border: none;
+}
+html {
+	font-size: 100px;
+}
+body {
+	background-color: #f5f5f5;
+}
+/*baner*/
+#banner img {
+	width: 7.5rem;
+	height: 3.64rem;
+}
+.tab {
+	width: 6.9rem;
+	height: 0.88rem;
+	line-height: 0.88rem;
+	margin-left: 0.3rem;
+}
+.tab img {
+	width: 0.31rem;
+	height: 0.28rem;
+	float: left;
+	margin-top: 0.3rem;
+	margin-right: 0.15rem;
+}
+.tab p {
+	font-size: 0.28rem;
+	color: #545454;
+	font-weight: 700;
+}
+.list {
+	width: 6.9rem;
+	font-size: 0;
+	margin-left: 0.3rem;
+	overflow: hidden;
+}
+.list li {
+	float: left;
+}
+.list li {
+	width: 2.22rem;
+	height: 2.22rem;
+	background-color: #fff;
+	text-align: center;
+} 
+.list .list1 {
+	margin-right: 0.1rem;
+}
+.list img {
+	width: 2.22rem;
+	height: 1.8rem;
+}
+.list p {
+	font-size: 0.24rem;
+	color: #545454;
+}
+.list .list3 {
+	margin-right: 0.1rem;
+	margin-top: 0.1rem;
+}
+.list .list4 {
+	margin-top: 0.1rem;
+}
+/*控制器*/
+.bt {
+	margin-top: 0.04rem;
+}
+.tab1 {
+	width: 7.5rem;
+	height: 0.88rem;
+	border-bottom: 0.01rem solid #ebebeb;
+	line-height: 0.88rem;
+}
+.tab1 img {
+	width: 0.25rem;
+	height: 0.27rem;
+	float: left; 
+	margin-left: 3rem;
+	margin-top: 0.3rem;
+}
+.tab1 p {
+	font-size: 0.18rem;
+	color: #333;
+	float: left;
+	margin-left: 0.26rem;
+}
+/*导航*/
+.subnav {
+	width: 7.5rem;
+	height: 1.1rem;
+	background-color: #fff;
+	font-size: 0;
+	background-color: #fff;
+	position: fixed;
+	left: 0;
+	top: 12.25rem;
+}
+.subnav ul {
+	width: 5.94rem;
+	margin-left: 0.75rem;
+}
+.subnav ul li {
+	float: left;
+	width: 0.62rem;
+	text-align: center;
+}
+.subnav .first {
+	margin-right: 0.7rem;
+}
+.subnav ul img {
+	margin-top: 0.06rem;
+	width: 0.62rem;
+	height: 0.62rem;
+}
+#p1 {
+	color: #0093dd;
+}
+.subnav ul p {
+	font-size: 0.2rem;
+	color: #545454;
+}
+.blank1 {
+	height: 1.1rem;
+	width: 7.5rem;
+	background-color: #f5f5f5;
+	border-bottom: 0.01rem solid #ebebeb;
+}

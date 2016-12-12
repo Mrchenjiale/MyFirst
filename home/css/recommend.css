@@ -1,0 +1,35 @@
+.wrapper {
+  width: 100%;
+  background: #efeeee; }
+  .wrapper .banner {
+    width: 100%;
+    height: 2rem; }
+    .wrapper .banner img {
+      width: 100%;
+      height: 100%; }
+  .wrapper article {
+    padding: 0 0.13rem;
+    margin-top: 0.17rem; }
+    .wrapper article section {
+      margin-top: 0.26rem; }
+      .wrapper article section div {
+        width: 50%; }
+        .wrapper article section div img {
+          width: 100%; }
+        .wrapper article section div p {
+          font-size: 0.3rem;
+          float: left; }
+        .wrapper article section div .price {
+          color: #0eb852;
+          font-size: 0.32rem;
+          float: right; }
+      .wrapper article section div:nth-child(odd) {
+        float: left; }
+      .wrapper article section div:nth-child(even) {
+        float: right; }
+    .wrapper article section:first-child {
+      margin-top: 0; }
+    .wrapper article section:nth-child(odd) div:nth-child(odd) {
+      padding-right: 0.25rem; }
+    .wrapper article section:nth-child(even) div:nth-child(even) {
+      padding-left: 0.25rem; }
